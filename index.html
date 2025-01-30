@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NM Laser Products</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: white;
+      padding: 10px 20px;
+    }
+
+    .navbar-logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar-logo img {
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    .navbar-menu {
+      display: flex;
+      gap: 15px;
+    }
+
+    .navbar-menu a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      padding: 5px 10px;
+      transition: color 0.3s;
+    }
+
+    .navbar-menu a:hover {
+      color: #007BFF;
+    }
+
+    .navbar-contact {
+      background-color: #0F2F96;
+      color: white !important;
+      padding: 5px 15px;
+      border: none;
+      border-radius: 3px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+      
+    }
+
+    
+
+    .navbar-contact:hover {
+      background-color: #0056b3;
+    }
+
+    .view-product {
+      background-color: #0F2F96;
+      color: white !important;
+      padding: 5px 15px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+      margin-left: 100px;
+      font-size: 22px;
+    }
+
+    .view-product:hover {
+      background-color: #0056b3;
+    }
+
+    .banner {
+      position: relative;
+      height: 100vh; /* Full screen height */
+      overflow: hidden;
+    }
+
+    .banner .bg-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+
+    .banner .bg-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Ensures the image covers the entire banner without distortion */
+    }
+
+    .banner h1 {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      
+      margin: auto;
+      color: white;
+      text-align: center;
+      font-size: 3rem; /* Adjust the size as needed */
+      z-index: 2;
+      display: flex; /* Ensures centering works properly */
+      justify-content: center; /* Center text horizontally */
+      align-items: center; /* Center text vertically */
+      margin-left: 50px;
+    }
+
+    .upper-content{
+        background: #fff;
+    text-align: center;
+    
+    padding: 30px !important;
+    padding-top: 55px !important;
+    }
+
+    .upper-content h3 {
+        color: #829717;
+        text-align: left !important;
+        margin-left: 100px;
+        font-size: 35px;
+    }
+
+    .upper-content p {
+    font-size: 18px;
+    color: #2A2A2A;
+    line-height: 30px;
+    font-family: NotoSans-Light;
+    text-align: left !important;
+    margin-left: 100px;
+    margin-right: 100px;
+    }
+
+    .products {
+    color: #000;
+    font-size: 14px;
+    font-family: NotoSans-Regular;
+    background: #FAFBF6;
+    overflow: hidden;
+}
+
+  .testimonials {
+    color: #000;
+    font-size: 14px;
+    font-family: NotoSans-Regular;
+    background: #FAFBF6 !important;
+    overflow: hidden;
+  }
+
+
+  .products p {
+  font-size: 18px;
+}
+
+  .products h2 {
+    
+    position: absolute;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: -70px;
+    margin-left: 15px;
+}
+
+  
+
+  /* .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} */
+
+.row {
+   
+  display: flex; /* Use flexbox layout */
+  justify-content: center; /* Optional: space between boxes */
+}
+
+  .card {
+    margin-top: 50px;
+    color: white;
+    padding-left: 30px;
+   
+  }
+
+  .card-content {
+    
+    margin-bottom: 0px;
+   
+  }
+
+  .card img {
+    border-radius: 10px;
+    padding-right: 30px;
+    opacity: 0.9;
+    position: relative;
+    width: 100%;
+  }
+  
+ 
+
+  
+
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <img src="logo.png" alt="NM Laser Products Logo">
+    </div>
+    <div class="navbar-menu">
+      <a href="#">Products</a>
+      <a href="#">Technical Information</a>
+      <a href="#">News</a>
+      <a href="#">FAQ</a>
+      <a href="#">Company</a>
+      <a href="#" class="navbar-contact">CONTACT</a>
+    </div>
+  </nav>
+
+  <section class="top-banner"></section>
+  <div class="banner">
+    <div class="bg-image">
+      <img src="mainbanner.jpg" alt="Banner Image">
+    </div>
+    <h1>LASER SHUTTERS – <br>OPTICAL SHUTTERS</h1>
+  </div>
+</section>
+
+<section class="upper-content">
+    <div class="heading">
+        <h3>Laser Shutters & Optical Shutters</h3>
+        <p>Laser Shutters for Safety Applications in Need of Maximum Optical Damage Threshold &amp; Highest Optical Power Handling. 
+           optical Shutters for Imaging Application in Need of Continuous High Speed &amp; High Repetition Rate Operations with Infinite Life. 
+           NM Laser has dedicated +3 decades of niche specialization to produce the world’s best OEM solutions for semiconductor, biotech, and medical industries, 
+           simultaneously developing cutting edge tools for researchers.</p>
+           <div style="text-align: left;">
+        <a href="#" class="view-product">View Products</a>
+           </div>
+
+    </div>
+</section>
+
+<section class="products">
+  <div class="container">
+    <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="card">
+      <div class="card-img">
+      <img src="MicrosoftTeams-image.png">
+    </div>
+      <div class="card-content">
+        <h2>
+          Laser Shutters and Optical Shutters
+        </h2>
+        <!-- <p>
+          Our patented electro-mechanical laser shutters provide features not found in ...
+        </p> -->
+      </div>
+    </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+      <div class="card">
+        <div class="card-img">
+          <img src="MicrosoftTeams-image.png">
+        </div>
+        <div class="card-content">
+          <h2>
+            Laser Shutters and Optical Shutters
+          </h2>
+          <!-- <p>
+            Our patented electro-mechanical laser shutters provide features not found in ...
+          </p> -->
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div class="card">
+          <div class="card-img">
+            <img src="MicrosoftTeams-image.png">
+          </div>
+          <div class="card-content">
+            <h2>
+              Laser Shutters and Optical Shutters
+            </h2>
+            <!-- <p>
+              Our patented electro-mechanical laser shutters provide features not found in ...
+            </p> -->
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="testimonails">
+  <div class="container">
+    <div class="heading">
+      <h2>News & Insights</h2>
+      <h6>view all</h6>
+    </div>
+    <div class="col-lg4 col-md4 col-sm6 col-xs12">
+      <div class="testiomanial-img">
+        <img src="MicrosoftTeams-imageinsight1.png">
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
